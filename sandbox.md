@@ -109,14 +109,6 @@ Simplified syntax + sentence label
 ## Right-to-left text (Hebrew)
 
 ~~~ sdparse
-Aדני/NOUN Aראה/VERB Aסרט/NOUN
-nsubj(Aראה, Aדני)
-dobj(Aראה, Aסרט)
-~~~
-
-Same without "A" (should trigger auto-insertion of "ˑ")
-
-~~~ sdparse
 דני/NOUN ראה/VERB סרט/NOUN
 nsubj(ראה, דני)
 dobj(ראה, סרט)
@@ -125,28 +117,12 @@ dobj(ראה, סרט)
 Same sentence in CoNLL-U:
 
 ~~~ conllu
-1     ˑדניˑ       _        NOUN    _      _     2      nsubj _ _
-2     ˑראהˑ       _        VERB    _      _     0      root  _ _
-3     ˑסרטˑ       _        NOUN    _      _     2      dobj  _ _
-~~~
-
-Without literal "ˑ" in input  (should trigger auto-insertion)
-
-~~~ conllu
 1     דני       _        NOUN    _      _     2      nsubj _ _
 2     ראה       _        VERB    _      _     0      root  _ _
 3     סרט       _        NOUN    _      _     2      dobj  _ _
 ~~~
 
-Does Arabic work as well?
-
-~~~ conllu
-1     ˑوَˑ       _        NOUN    _      _     2      nsubj _ _
-2     ˑلاحَظَˑ       _        VERB    _      _     0      root  _ _
-3     ˑالتَقْرِيرُˑ       _        NOUN    _      _     2      dobj  _ _
-~~~
-
-Without literal "ˑ" in input  (should trigger auto-insertion)
+Arabic
 
 ~~~ conllu
 1     وَ       _        NOUN    _      _     2      nsubj _ _
@@ -154,9 +130,4 @@ Without literal "ˑ" in input  (should trigger auto-insertion)
 3     التَقْرِيرُ       _        NOUN    _      _     2      dobj  _ _
 ~~~
 
-~~~ conllu
-1     ‎דני       _        NOUN    _      _     2      nsubj _ _
-2     ‎ראה       _        VERB    _      _     0      root  _ _
-3     ‎סרט       _        NOUN    _      _     2      dobj  _ _
-~~~
 ----------
