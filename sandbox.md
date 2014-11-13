@@ -45,7 +45,7 @@ Dynamic visualization (click "edit!")
 ~~~
 Dynamic visualization (click "edit!")
 ~~~
-{.sdparse :tabs="yes"}
+{:.sdparse tabs="yes"}
 
 ~~~ sdparse
 Example with error
