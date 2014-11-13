@@ -22,6 +22,7 @@ title:  'Universal Dependencies'
 <!-- "Universal" tab -->
 <div id="language-u" markdown="1" class="ui-tabs-panel">
 [Introduction to Universal Dependencies](introduction.html)
+[Sandbox](sandbox.html)
 
 * [Tokenization](u/overview/tokenization.html)
 * Morphology
