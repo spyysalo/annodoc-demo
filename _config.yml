@@ -17,12 +17,6 @@ collections:
 #
 # Universal
 #
-  u-pos:
-    output: true
-    permalink: /u/pos/:path.html
-  u-feat:
-    output: true
-    permalink: /u/feat/:path.html
   u-dep:
     output: true
     permalink: /u/dep/:path.html
