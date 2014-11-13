@@ -56,7 +56,7 @@ det(no-such, token)
 
 ## CoNLL-U example
 
-<div class="conllu-parse" tabs="yes">
+~~~
 1     I         I        PRON    PRN      Num=Sing|Per=1     2      nsubj _ _
 2-3   haven't   _        _       _        _                  _      _ _ _
 2     have      have     VERB    VB       Tens=Pres          0      root _ _
@@ -64,22 +64,25 @@ det(no-such, token)
 4     a         a        DET     DT       _                  5      det _ _
 5     clue      clue     NOUN    NN       Num=Sing           2      dobj _ _
 6     .         .        PUNCT   .        _                  2      punct _ _
-</div>
+~~~
+{:.conllu tabs="yes"}
 
 With secondary dependencies
 
-<div class="conllu-parse" tabs="yes">
+~~~
 1    She       _   PRON    _   _   2   nsubj   _ _
 2    declared  _   VERB    _   _   0   root    _ _
 3    the       _   DET     _   _   4   det     _ _
 4    cake      _   NOUN    _   _   2   dobj    5:nsubj _
 5    beautiful _   ADJ     _   _   2   xcomp   _ _
 6    .         _   PUNCT   _   _   2   punct   _ _
-</div>
+~~~
+{:.conllu tabs="yes"}
 
 French example with English translation:
 
-<pre><code class="language-conllu"># give the toys to the children
+~~~
+# give the toys to the children
 1 donner donner VERB _ VerbForm=Inf 0 root _ give
 2 les le DET _ Definite=Def|Number=Plur 3 det _ the
 3 jouets jouet NOUN _ Gender=Masc|Number=Plur 1 dobj _ toys
@@ -95,7 +98,8 @@ French example with English translation:
 4 to à ADP _ _ 6 case _ to
 5 the le DET _ Definite=Def|Number=Plur 6 det _ the
 6 children enfant NOUN _ Gender=Masc|Number=Plur 1 nmod _ children
-</code></pre>
+~~~
+{:.conllu tabs="yes"}
 
 Sentence label and style
 
