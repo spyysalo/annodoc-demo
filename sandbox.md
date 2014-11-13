@@ -97,12 +97,21 @@ French example with English translation:
 6 children enfant NOUN _ Gender=Masc|Number=Plur 1 nmod _ children
 </code></pre>
 
-Simplified syntax with sentence label
+Sentence label and style
 
 ~~~ conllu
 # sentence-label long-label
+# visual-style 2 1 nsubj color:red
 1     I         I        PRON    PRN      Num=Sing|Per=1     2      nsubj _ _
 2     have      have     VERB    VB       Tens=Pres          0      root _ _
+~~~
+
+## Kanji
+
+~~~ sdparse
+ロボットは 東大に  入れる か 。/。
+nsubj(入れる, ロボットは)
+nommod(入れる, 東大に)
 ~~~
 
 ## Right-to-left text
