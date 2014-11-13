@@ -9,9 +9,6 @@ title:  'Sandbox'
 
 `inline code`
 
-Hi there!
-
-* bulleted
 * list
 
 1. numbered
