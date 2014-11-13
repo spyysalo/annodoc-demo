@@ -7,12 +7,12 @@ shortdef: 'auxiliary'
 redirect_from: "u/dep/aux.html"
 ---
 
-An auxiliary of a clause is a [non-main verb](u-pos/AUX) of the
+An auxiliary of a clause is a non-main verb of the
 clause, e.g., a modal auxiliary, or a form of _be, do_ or _have_ in a
 periphrastic tense.
 
 Exception: Auxiliary verb used to construct the passive
-[voice](u-feat/Voice) is not labeled `aux` but [auxpass]().
+voice is not labeled `aux` but [auxpass]().
 
 ~~~ sdparse
 Reagan has died

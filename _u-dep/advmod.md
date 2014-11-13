@@ -4,13 +4,13 @@ title: 'advmod'
 shortdef: 'adverbial modifier'
 ---
 
-An adverbial modifier of a word is a (non-clausal) [adverb](u-pos/ADV)
+An adverbial modifier of a word is a (non-clausal) adverb
 or adverbial phrase that serves to modify the meaning of the word.
 
 Note that in some grammatical traditions, the term _adverbial modifier_ covers
 constituents that function like adverbs regardless whether they are realized
 by adverbs, adpositional phrases, or nouns in particular morphological 
-[cases](u-feat/Case).
+cases.
 We differentiate adverbials realized as adverbs _(advmod)_ and
 adverbials realized by noun phrases or adpositional phrases
 ([nmod]()).
