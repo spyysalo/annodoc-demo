@@ -25,10 +25,6 @@ Link: [link text](http://www.example.com)
 
 # Some visualizations
 
-    ~~~ sdparse
-    Just some tokens
-    ~~~
-
 ~~~ sdparse
 Just some tokens
 ~~~
@@ -70,7 +66,7 @@ det(no-such, token)
 6     .         .        PUNCT   .        _                  2      punct _ _
 </div>
 
-What about secondary dependencies in the enhanced representation?
+With secondary dependencies
 
 <div class="conllu-parse" tabs="yes">
 1    She       _   PRON    _   _   2   nsubj   _ _
@@ -81,7 +77,7 @@ What about secondary dependencies in the enhanced representation?
 6    .         _   PUNCT   _   _   2   punct   _ _
 </div>
 
-Two sentences can be used to show the English translation of a foreign example:
+French example with English translation:
 
 <pre><code class="language-conllu"># give the toys to the children
 1 donner donner VERB _ VerbForm=Inf 0 root _ give
@@ -101,15 +97,13 @@ Two sentences can be used to show the English translation of a foreign example:
 6 children enfant NOUN _ Gender=Masc|Number=Plur 1 nmod _ children
 </code></pre>
 
-Simplified syntax + sentence label
+Simplified syntax with sentence label
 
 ~~~ conllu
 # sentence-label long-label
 1     I         I        PRON    PRN      Num=Sing|Per=1     2      nsubj _ _
 2     have      have     VERB    VB       Tens=Pres          0      root _ _
 ~~~
-
-<a name="hebrew" />
 
 ## Right-to-left text
 
