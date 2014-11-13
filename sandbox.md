@@ -106,7 +106,9 @@ Simplified syntax + sentence label
 
 <a name="hebrew" />
 
-## Right-to-left text (Hebrew)
+## Right-to-left text
+
+Hebrew (Stanford Dependencies format)
 
 ~~~ sdparse
 דני/NOUN ראה/VERB סרט/NOUN
@@ -114,7 +116,7 @@ nsubj(ראה, דני)
 dobj(ראה, סרט)
 ~~~
 
-Same sentence in CoNLL-U:
+Same sentence in CoNLL-U format:
 
 ~~~ conllu
 1     דני       _        NOUN    _      _     2      nsubj _ _
