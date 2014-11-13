@@ -35,5 +35,5 @@ excerpt_separator: "\n\n"
 
 home: "http://spyysalo.github.io/annodoc-demo/"
 tracker: "https://github.com/spyysalo/annodoc-demo/issues"
-git_raw: "https://raw.githubusercontent.com/spyysalo/annodoc-demo/pages-source"
-git_edit: "https://github.com/spyysalo/annodoc-demo/edit/pages-source"
+git_raw: "https://raw.githubusercontent.com/spyysalo/annodoc-demo/gh-pages"
+git_edit: "https://github.com/spyysalo/annodoc-demo/edit/gh-pages"
