@@ -1,0 +1,42 @@
+source:       .
+destination:  ./_site
+markdown:     kramdown
+# kramdown:
+#   parse_block_html: true # allow markdown in <div> etc.
+permalink:    date
+# safe:         true
+markdown_ext: md
+
+# testing for redirect-from
+baseurl: "/docs"
+
+gems:
+  - jekyll-redirect-from
+
+collections:
+#
+# Universal
+#
+  u-pos:
+    output: true
+    permalink: /u/pos/:path.html
+  u-feat:
+    output: true
+    permalink: /u/feat/:path.html
+  u-dep:
+    output: true
+    permalink: /u/dep/:path.html
+  u-overview:
+    output: true
+  ext-feat:
+    output: true
+    permalink: /u/ext-feat/:path.html
+
+excerpt_separator: "\n\n"
+
+# URL configuration
+
+home: "http://universaldependencies.github.io/docs/"
+tracker: "https://github.com/universaldependencies/docs/issues"
+git_raw: "https://raw.githubusercontent.com/universaldependencies/docs/pages-source"
+git_edit: "https://github.com/universaldependencies/docs/edit/pages-source"
