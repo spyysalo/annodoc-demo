@@ -11,7 +11,7 @@ She gave me a raise
 dobj(gave, raise)
 ~~~
 
-In languages distinguishing morphological [cases](u-feat/Case), the
+In languages distinguishing morphological cases, the
 direct object will often be marked by the accusative case. However,
 verb valency may occasionally dictate a different form, such as the
 dative case in the following German example:

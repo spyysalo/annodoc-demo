@@ -4,7 +4,7 @@ title: 'discourse'
 shortdef: 'discourse element'
 ---
 
-This is used for [interjections](u-pos/INTJ) and other discourse [particles](u-pos/PART) and
+This is used for interjections and other discourse particles and
 elements (which are not clearly linked to the structure of the
 sentence, except in an expressive way). We generally follow the
 guidelines of what the Penn Treebanks count as an INTJ.  They define

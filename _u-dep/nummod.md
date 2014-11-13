@@ -4,7 +4,7 @@ title: 'nummod'
 shortdef: 'numeric modifier'
 ---
 
-A numeric modifier of a noun is any [number](u-pos/NUM) phrase
+A numeric modifier of a noun is any number phrase
 that serves to modify the meaning of the noun with a quantity.
 
 ~~~ sdparse
@@ -23,7 +23,7 @@ nummod($, 40)
 ~~~
 
 Note that indefinite quantifiers such as _few, many_ are tagged
-[u-pos/DET]() rather than [u-pos/NUM](). 
+DET rather than NUM. 
 Therefore their relation to the quantified noun is not `nummod` but
 [det]():
 

@@ -23,7 +23,7 @@ iobj(a-ra-andik-iish-a, íkárámu)
 ~~~
 
 
-In languages distinguishing morphological [cases](u-feat/Case), the indirect object will often be marked by the dative case. However, verb valency may occasionally dictate that the direct object is in dative, or that the indirect objects shall take various other forms.
+In languages distinguishing morphological cases, the indirect object will often be marked by the dative case. However, verb valency may occasionally dictate that the direct object is in dative, or that the indirect objects shall take various other forms.
 
 In the following Czech example, the verb takes two arguments, both are nouns in the accusative case. One of them is direct object (patient), the other is indirect (addressee). It is parallel to how the English translation would be annotated (where there is no morphological case marking) and also to verbs of giving (consider a similar sentence, _he gave my daughter a class of maths_).
 
