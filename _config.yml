@@ -36,7 +36,7 @@ excerpt_separator: "\n\n"
 
 # URL configuration
 
-home: "http://universaldependencies.github.io/docs/"
-tracker: "https://github.com/universaldependencies/docs/issues"
-git_raw: "https://raw.githubusercontent.com/universaldependencies/docs/pages-source"
-git_edit: "https://github.com/universaldependencies/docs/edit/pages-source"
+home: "http://spyysalo.github.io/annodoc-demo/"
+tracker: "https://github.com/spyysalo/annodoc-demo/issues"
+git_raw: "https://raw.githubusercontent.com/spyysalo/annodoc-demo/pages-source"
+git_edit: "https://github.com/spyysalo/annodoc-demo/edit/pages-source"
