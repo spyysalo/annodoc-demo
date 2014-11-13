@@ -27,9 +27,6 @@ title:  'Universal Dependencies'
 * [Tokenization](u/overview/tokenization.html)
 * Morphology
   * [General principles](u/overview/morphology.html)
-  * [Universal POS tags](u/pos/index.html) ([single document](u/pos/all.html))
-  * [Universal features](u/feat/index.html) ([single document](u/feat/all.html))
-  * [Language-specific features](ext-feat-index.html)
 * Syntax
   * [General principles](u/overview/syntax.html)
   * [Specific constructions](u/overview/specific-syntax.html)
