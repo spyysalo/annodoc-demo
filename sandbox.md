@@ -101,6 +101,7 @@ Sentence label and style
 
 ~~~ conllu
 # sentence-label long-label
+# visual-style 2 bgColor:yellow
 # visual-style 2 1 nsubj color:red
 1     I         I        PRON    PRN      Num=Sing|Per=1     2      nsubj _ _
 2     have      have     VERB    VB       Tens=Pres          0      root _ _
