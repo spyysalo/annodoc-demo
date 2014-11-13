@@ -42,10 +42,10 @@ det(dependency, A)
 Dynamic visualization (click "edit!")
 </div>
 
-~~~ sdparse
+~~~
 Dynamic visualization (click "edit!")
 ~~~
-{:tabs="yes"}
+{.sdparse :tabs="yes"}
 
 ~~~ sdparse
 Example with error
