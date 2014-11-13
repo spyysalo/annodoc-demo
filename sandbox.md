@@ -38,10 +38,6 @@ A dependency
 det(dependency, A)
 ~~~
 
-<div class="sd-parse">
-Alternative syntax
-</div>
-
 <div class="sd-parse" tabs="yes">
 Dynamic visualization (click "edit!")
 </div>
