@@ -28,9 +28,6 @@ collections:
     permalink: /u/dep/:path.html
   u-overview:
     output: true
-  ext-feat:
-    output: true
-    permalink: /u/ext-feat/:path.html
 
 excerpt_separator: "\n\n"
 
