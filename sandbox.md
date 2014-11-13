@@ -26,13 +26,9 @@ keep here.)
 
 Link: [link text](http://www.example.com)
 
-# header 1
-
 ## header 2
 
 ### header 3
-
-#### header 4
 
 *italics* and **bold**
 
@@ -177,21 +173,3 @@ Without literal "ˑ" in input  (should trigger auto-insertion)
 3     ‎סרט       _        NOUN    _      _     2      dobj  _ _
 ~~~
 ----------
-
-# Some Jekyll 
-
-## Finnish documentation for relations containing "cop" 
-
-{% for p in site.fi-dep %}
-{% if p.title contains "cop" %}
-{{ p.content }}
-{% endif %}
-{% endfor %}
-
-## Finnish documentation for relations with tag "case"
-
-{% for p in site.fi-dep %}
-{% if p.tags contains "case" %}
-{{ p.content }}
-{% endif %}
-{% endfor %}
