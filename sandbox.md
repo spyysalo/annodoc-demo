@@ -43,6 +43,11 @@ Dynamic visualization (click "edit!")
 </div>
 
 ~~~ sdparse
+Dynamic visualization (click "edit!")
+~~~
+{:tabs="yes"}
+
+~~~ sdparse
 Example with error
 det(no-such, token)
 ~~~
