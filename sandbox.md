@@ -43,7 +43,7 @@ det(dependency, A)
 ~~~
 
 ~~~
-Dynamic visualization (click "edit!")
+dynamic visualization ( click the " edit " tab )
 ~~~
 {:.sdparse tabs="yes"}
 
